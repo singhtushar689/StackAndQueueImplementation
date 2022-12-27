@@ -1,10 +1,12 @@
-﻿namespace StackAndQueueImolementation
+﻿namespace StackAndQueueImplementation
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Stack stack = new Stack();
+            stack.DisplayStack();
+          
         }
     }
 }
